@@ -8,6 +8,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Add Navbar component
 - Add three pages (Home, Slider, PopUp)
+
+## Step 2
+
+- Populated PopUp page with PopUp component
+
+## Step 3
+
+- Populate Slider page with Slider component
+
+# Useful commands
+
 - For adding router use command(npm add react-router-dom)
 - For adding icons use command(npm add react-icons)
 - Use Routes instaed if switch as its updared version
