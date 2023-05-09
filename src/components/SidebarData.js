@@ -1,7 +1,6 @@
 import React from "react";
-import * as FaIcons from "react-icons/fa";
+// Link to find more icons https://react-icons.github.io/react-icons/icons?name=ai
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
 
 export const SidebarData = [
   {
@@ -13,13 +12,13 @@ export const SidebarData = [
   {
     title: "Popup",
     path: "/popup",
-    icon: <IoIcons.IoIosPaper />,
+    icon: <AiIcons.AiOutlineGroup />,
     cName: "nav-text",
   },
   {
     title: "Slider",
     path: "/slider",
-    icon: <FaIcons.FaCartPlus />,
+    icon: <AiIcons.AiFillSliders />,
     cName: "nav-text",
   },
 ];
