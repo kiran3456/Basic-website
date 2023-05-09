@@ -1,11 +1,9 @@
 import React from "react";
+import ImageSlider from "../components/ImageSlider";
+import { SliderData } from "../components/SliderData";
 
 function Slider() {
-  return (
-    <div className="slider">
-      <h1>Slider</h1>
-    </div>
-  );
+  return <ImageSlider slides={SliderData} />;
 }
 
 export default Slider;
